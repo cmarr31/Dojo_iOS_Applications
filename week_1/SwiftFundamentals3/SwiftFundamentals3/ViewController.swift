@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         
         
         // Now write the code that swaps random values 100 times (You've created a "Shuffle"!)
-        func shuffle(array3: inout Array<Int>) {
+        func sh9uffle(array3: inout Array<Int>) {
             var i = 1
             while i < 100 {
                 var randomNumber1 = arc4random_uniform(255) + 0
